@@ -15,7 +15,7 @@ body.layout-utama {
     height: 100vh;
 }
 
-/* Baris 1: Header / Navbar */
+/* Navbar Header*/
 header.navbar {
     background-color: #0461af;
     color: white;
@@ -40,7 +40,7 @@ header.navbar p {
     flex: 1;
 }
 
-/* Kolom 1 (Kiri): Menu */
+/* Menu Kiri */
 .sidebar-left {
     width: 25%;
     background-color: darkgray;
@@ -53,7 +53,7 @@ header.navbar p {
     border: none;
 }
 
-/* Kolom 2 (Tengah): Frame Konten Utama */
+/* Frame Konten Utama Tengah */
 .content-center {
     width: 55%;
     background-color: ghostwhite;
@@ -65,7 +65,7 @@ header.navbar p {
     border: none;
 }
 
-/* Kolom 3 (Kanan): Logo & Link */
+/* Logo & Link Kanan */
 .sidebar-right {
     width: 20%;
     background-color: darkgray;
@@ -90,7 +90,7 @@ header.navbar p {
     text-decoration: underline;
 }
 
-/* Baris 3: Footer */
+/*Footer */
 footer.footer {
     background-color: #0461af;
     color: white;
@@ -102,9 +102,7 @@ footer.footer {
     justify-content: center;
 }
 
-/* =========================================
-   STYLE MENU KIRI (menu_kiri.html)
-   ========================================= */
+/* Menu Kiri*/
 body.bg-sidebar {
     background-color: darkgray;
     padding: 10px;
@@ -144,9 +142,8 @@ table.menu-table td a:hover {
     color: #000;
 }
 
-/* =========================================
-   STYLE KONTEN TENGAH (home.html & menu*.html)
-   ========================================= */
+/* Konten Tengah*/
+
 body.bg-content {
     background-color: ghostwhite;
     padding: 15px;
