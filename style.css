@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+body.layout-utama {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Baris 1: Header / Navbar */
+header.navbar {
+    background-color: #0461af;
+    color: white;
+    padding: 15px 20px;
+    height: 80px;
+}
+
+header.navbar h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+header.navbar p {
+    font-size: 11px;
+    font-style: italic;
+}
+
+/* Baris 2: Wadah 3 Kolom */
+.main-container {
+    display: flex;
+    flex: 1;
+}
+
+/* Kolom 1 (Kiri): Menu */
+.sidebar-left {
+    width: 25%;
+    background-color: darkgray;
+    border-right: 1px solid #999;
+}
+
+.sidebar-left iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Kolom 2 (Tengah): Frame Konten Utama */
+.content-center {
+    width: 55%;
+    background-color: ghostwhite;
+}
+
+.content-center iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Kolom 3 (Kanan): Logo & Link */
+.sidebar-right {
+    width: 20%;
+    background-color: darkgray;
+    border-left: 1px solid #999;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.sidebar-right img {
+    width: 90px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.sidebar-right .links-container a {
+    display: block;
+    color: #002b80;
+    font-size: 13px;
+    margin: 4px 0;
+    text-decoration: underline;
+}
+
+/* Baris 3: Footer */
+footer.footer {
+    background-color: #0461af;
+    color: white;
+    padding: 10px 20px;
+    height: 60px;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* =========================================
+   STYLE MENU KIRI (menu_kiri.html)
+   ========================================= */
+body.bg-sidebar {
+    background-color: darkgray;
+    padding: 10px;
+}
+
+table.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #555;
+}
+
+table.menu-table th {
+    background-color: #0000ff;
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #555;
+}
+
+table.menu-table td {
+    background-color: #ffff00;
+    border: 1px solid #b5b500;
+    text-align: center;
+    padding: 6px;
+}
+
+table.menu-table td a {
+    text-decoration: underline;
+    color: #555500;
+    font-size: 13px;
+    display: block;
+    width: 100%;
+}
+
+table.menu-table td a:hover {
+    color: #000;
+}
+
+/* =========================================
+   STYLE KONTEN TENGAH (home.html & menu*.html)
+   ========================================= */
+body.bg-content {
+    background-color: ghostwhite;
+    padding: 15px;
+}
+
+body.bg-content h3 {
+    font-size: 13px;
+    margin-bottom: 12px;
+    font-weight: normal;
+}
+
+body.bg-content p.keterangan {
+    font-size: 12px;
+    font-style: italic;
+}
